@@ -158,7 +158,7 @@ pullRequestWebhook = Webhook(
 pushProject = Project(
     resource_name="push",
     name="database-access-push",
-    description="Runs pulumi up on database access pushes to master",
+    description="Runs pulumi up on database access pushes to main",
     service_role=serviceRole.arn,
     cache=ProjectCacheArgs(type="NO_CACHE"),
     badge_enabled=False,
