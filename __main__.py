@@ -59,13 +59,7 @@ serviceRole = Role(
 policy = get_policy_document(
     statements=[
         GetPolicyDocumentStatementArgs(
-            actions=["iam:*"],
-            effect="Allow",
-            resources=[
-                f"arn:aws:iam::{account_id}:role/alpha_user_*",
-                f"arn:aws:iam::{account_id}:role/alpha_app_*",
-            ],
-            sid="IamPolicy",
+            actions=["iam:*"], effect="Allow", resources=["*"], sid="IamPolicy",
         ),
         GetPolicyDocumentStatementArgs(
             actions=[
