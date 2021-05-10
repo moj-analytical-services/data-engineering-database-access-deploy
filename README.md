@@ -1,5 +1,8 @@
 # Data Engineering Database Access Deploy
 
+**⚠️ This repository has been archvied following the migration from AWS
+CodeBuild to GitHub Actions.**
+
 ## Introduction
 
 This repository contains a Pulumi project that creates AWS CodeBuild
