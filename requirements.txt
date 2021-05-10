@@ -11,7 +11,7 @@ pulumi>=2.0.0,<3.0.0
 pulumi-aws>=3.2.0,<4.0.0
 pycodestyle==2.6.0
 pyflakes==2.2.0
-PyYAML==5.3.1
+PyYAML==5.4
 regex==2020.6.8
 toml==0.10.1
 typed-ast==1.4.1
